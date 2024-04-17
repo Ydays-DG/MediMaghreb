@@ -1,0 +1,121 @@
+/* Styles pour la section héros */
+.home-container {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background-image: url('hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 38px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-section h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+    margin-bottom: 32px;
+    font-size: 18px;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-find-doctor {
+    color: white;
+    background-color: #00ccb1;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    z-index: 1; 
+}
+
+.btn-find-doctor:hover {
+    background-color: #00a494; 
+}
+
+/* Styles pour la section services */
+.services-section {
+    text-align: center;
+}
+
+.services-section .container {
+    margin-top: 3%;
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #004D40;
+    font-size: 2em;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service {
+    width: calc(33% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.service:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    background-color: #f0f0f0;
+}
+
+.service h3 {
+    color: #00897B;
+}
+
+.service p {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .service {
+        width: calc(50% - 20px);
+    }
+}

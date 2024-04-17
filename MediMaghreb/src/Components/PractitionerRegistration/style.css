@@ -1,0 +1,63 @@
+/* style.css */
+.practitioner-registration-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.practitioner-registration-container .container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.description-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8; 
+}
+
+.registration-form-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.btn-conx-practitioner {
+    background-color: #44c767; 
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-conx-practitioner:hover {
+    background-color: #399c5e;
+}
+
+.link-practitioner {
+    color: #318c47;
+    display: block;
+    text-align: center;
+}
+
+.link-practitioner:hover {
+    text-decoration: underline;
+}

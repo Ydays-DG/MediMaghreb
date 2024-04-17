@@ -1,0 +1,13 @@
+.error-message{
+    color: red;
+    margin: 12px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.succes-message{
+    color: green;
+    margin: 12px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

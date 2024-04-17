@@ -1,0 +1,88 @@
+.appointments-container {
+    margin: 11% auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.step-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.step-button.active {
+    color: #007bff;
+    background-color: #e9f5ff;
+}
+
+.step-button:hover {
+    color: #007bff;
+}
+
+.cancelled-appointment {
+    background-color: #ffe6e6;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+    background-color: #d32f2f;
+}
+
+.appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.appointments-table th,
+.appointments-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.appointments-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.appointments-table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+    background-color: #d32f2f;
+}

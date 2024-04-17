@@ -1,0 +1,38 @@
+.custom-navbar {
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.5);
+}
+
+.btn {
+    border: 1px solid #00ccb1;
+    color: #00ccb1;
+    background-color: transparent;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #00ccb1;
+    color: #ffffff;
+}
+
+.btn i {
+    margin-right: 5px;
+}
